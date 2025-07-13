@@ -1,1 +1,27 @@
+Spring RESTful Services
 
+Create a Spring Web Project using Maven
+Description:
+This exercise involves creating a Spring Web application using Maven for project structure and dependency management. It sets the foundation for building RESTful services.
+
+Spring Core – Load Country from Spring Configuration XML
+Description:
+Demonstrates loading a Country bean using traditional Spring XML configuration within a web application context.
+
+Hello World RESTful Web Service
+Description:
+A basic REST API example using Spring Boot. It exposes an HTTP GET endpoint that returns a simple "Hello World" message, showcasing the essentials of building REST services.
+
+REST - Country Web Service
+Description:
+Implements a RESTful web service to provide details about countries. Uses Spring's @RestController to return JSON responses from backend services.
+
+REST - Get Country Based on Country Code
+Description:
+Extends the Country service to support querying by country code via URL path parameters. Introduces use of @PathVariable in Spring REST.
+
+JWT Authentication
+
+Create Authentication Service that Returns JWT
+Description:
+Develops a JWT-based authentication system using Spring Security. Users submit credentials and receive a JSON Web Token upon successful authentication, which can then be used to access protected endpoints.
