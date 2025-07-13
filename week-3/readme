@@ -1,1 +1,23 @@
+Section 1: Spring Core and Maven
 
+Exercise 1: Configuring a Basic Spring Application
+Description:
+Sets up a simple Spring application with basic configuration using applicationContext.xml. Focuses on creating beans and using the Spring container to manage dependencies.
+
+Exercise 2: Implementing Dependency Injection
+Description:
+Demonstrates Spring's Dependency Injection (DI) features including constructor-based and setter-based injection. This example helps understand how to decouple components in a Spring application.
+
+Exercise 4: Creating and Configuring a Maven Project
+Description:
+Covers setting up a Spring project using Apache Maven for dependency management. Includes pom.xml configuration and integration of Spring libraries using Maven.
+
+
+Section 2: Spring Data JPA with Spring Boot and Hibernate
+Project: Spring Data JPA - Quick Example
+Description:
+A hands-on starter application demonstrating Spring Data JPA with Spring Boot. Includes basic repository setup, entity creation, and CRUD operations using JPA repositories.
+
+Conceptual Exercise: Differences between JPA, Hibernate, and Spring Data JPA
+Description:
+A conceptual comparison between JPA, Hibernate, and Spring Data JPA. Helps in understanding how these technologies relate, differ, and integrate within a Spring Boot application.
