@@ -1,0 +1,50 @@
+Bank Microservices - Account and Loan
+
+This project contains two simple Spring Boot microservices:
+1. Account Microservice
+2. Loan Microservice
+
+Each microservice is a separate Maven project and provides a REST API with dummy data (no database).
+
+-------------------------------------------------------
+Account Microservice
+-------------------------------------------------------
+Endpoint: /accounts/{number}
+Method: GET
+Port: 8080
+
+Sample Response:
+{
+  "number": "00987987973432",
+  "type": "savings",
+  "balance": 234343
+}
+
+-------------------------------------------------------
+Loan Microservice
+-------------------------------------------------------
+Endpoint: /loans/{number}
+Method: GET
+Port: 8081 (set in application.properties)
+
+Sample Response:
+{
+  "number": "H00987987972342",
+  "type": "car",
+  "loan": 400000,
+  "emi": 3258,
+  "tenure": 18
+}
+
+
+How to Run
+
+1. Build each project using:
+   mvn clean package
+
+2. Run the application:
+   java -jar target/<jar-name>.jar
+
+3. Test using browser or Postman.
+
+Note: Make sure Account runs on port 8080 and Loan on 8081.
